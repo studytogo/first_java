@@ -10,4 +10,4 @@ ENV DATAPATH /data
 VOLUME $DATAPATH
 # 启动容器时执行
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/opt/zzg.jar"]
-EXPOSE 8080
+EXPOSE 8900
