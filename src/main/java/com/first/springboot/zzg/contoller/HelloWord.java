@@ -3,14 +3,8 @@ package com.first.springboot.zzg.contoller;
 import com.first.springboot.zzg.Config.TestConfig;
 import com.first.springboot.zzg.Dao.TestUserDao;
 import com.first.springboot.zzg.Entry.TestUser;
-import com.first.springboot.zzg.KafkaDemo.KafkaProducerDemo;
-import com.first.springboot.zzg.Pojo.UserInfo;
-import com.first.springboot.zzg.Service.AsyncTaskService;
 import com.first.springboot.zzg.Service.HelloWordService;
-import com.first.springboot.zzg.ThreadDemo.TaskExecutePool;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -41,9 +35,8 @@ public class HelloWord {
 //            asyncTaskService.executeAsyncTaskPlus(i);
 //        }
 //        context.close();
-        TestUser user = new TestUser();
-        user.setName("zzg");
-//        UserInfo info = dao.findUserInfoByName("zzg");
+           TestUser user = new TestUser();
+           user.setName("zzg");
            String msg = config.getMesssage();
         return msg;
     }
