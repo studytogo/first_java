@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "name": "task.pool",
+      "type": "com.first.springboot.zzg.ThreadDemo.TaskThreadPoolConfig",
+      "sourceType": "com.first.springboot.zzg.ThreadDemo.TaskThreadPoolConfig"
+    },
+    {
+      "name": "test",
+      "type": "com.first.springboot.zzg.Config.TestConfig",
+      "sourceType": "com.first.springboot.zzg.Config.TestConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "task.pool.core-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.first.springboot.zzg.ThreadDemo.TaskThreadPoolConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "task.pool.keep-alive-seconds",
+      "type": "java.lang.Integer",
+      "sourceType": "com.first.springboot.zzg.ThreadDemo.TaskThreadPoolConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "task.pool.max-pool-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.first.springboot.zzg.ThreadDemo.TaskThreadPoolConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "task.pool.queue-capacity",
+      "type": "java.lang.Integer",
+      "sourceType": "com.first.springboot.zzg.ThreadDemo.TaskThreadPoolConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "test.messsage",
+      "type": "java.lang.String",
+      "sourceType": "com.first.springboot.zzg.Config.TestConfig"
+    }
+  ],
+  "hints": []
+}
